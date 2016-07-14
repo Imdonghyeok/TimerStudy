@@ -12,6 +12,7 @@
 		E5FA212F1D372E4E00CD0DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FA212D1D372E4E00CD0DB2 /* Main.storyboard */; };
 		E5FA21311D372E4E00CD0DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FA21301D372E4E00CD0DB2 /* Assets.xcassets */; };
 		E5FA21341D372E4E00CD0DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FA21321D372E4E00CD0DB2 /* LaunchScreen.storyboard */; };
+		E5FA213C1D37483D00CD0DB2 /* UIViewControllerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA213B1D37483D00CD0DB2 /* UIViewControllerModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E5FA21301D372E4E00CD0DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5FA21331D372E4E00CD0DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5FA21351D372E4E00CD0DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5FA213B1D37483D00CD0DB2 /* UIViewControllerModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E5FA21281D372E4E00CD0DB2 /* TimerStudy */ = {
 			isa = PBXGroup;
 			children = (
+				E5FA213B1D37483D00CD0DB2 /* UIViewControllerModal.swift */,
 				E5FA21291D372E4E00CD0DB2 /* AppDelegate.swift */,
 				E5FA212B1D372E4E00CD0DB2 /* ViewController.swift */,
 				E5FA212D1D372E4E00CD0DB2 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				E5FA212C1D372E4E00CD0DB2 /* ViewController.swift in Sources */,
 				E5FA212A1D372E4E00CD0DB2 /* AppDelegate.swift in Sources */,
+				E5FA213C1D37483D00CD0DB2 /* UIViewControllerModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				E5FA213A1D372E4E00CD0DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
